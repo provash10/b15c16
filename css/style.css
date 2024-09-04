@@ -1,0 +1,111 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.custom{
+    background-color: aqua;
+}
+.custom-link{
+    text-decoration: none;
+    font-size: 20px;
+    color:black;
+    display: block;
+}
+.nav-item{
+    padding: 30px 20px;
+}
+/* =========================== */
+/* =====15 Practical Session Part 10 Footer Part =====*/
+        /* =====Footer Part===== */
+
+        #footer{
+            text-align: center;
+            margin-top: 20px;
+        }        
+
+        .bg_footer{
+            /* background-color: #292929; */
+            background-color: rgb(25, 31, 31);
+        }
+        #footer>h1{
+            font-family: lato;
+            font-size: 40px;
+            font-weight: bold;
+            color: aqua;
+        }
+        
+        #footer>p{
+            font-family: lato;
+            font-size: 13px;
+            /* font-weight: bold; */
+            color: white;
+        }
+        
+        #footer .social_area {
+        }
+        #footer .social_area ul{
+            list-style: none;
+        }
+        #footer .social_area ul li{
+            display: inline-block;
+            margin: 0 10px;
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+        #footer .social_area ul li .facebook a{
+            display: block;
+            width: 40px;
+            background-image: url(../img/bgi.jpg) no-repeat;
+        }
+        #footer .social_area ul li .facebook:hover a{
+            background-image: url(../img/bgi.jpg) no-repeat;
+        }
+        
+
+/* 
+=========Card====== */
+.card img{
+    height: 250px;
+}
+
+.card{
+    height: 430px;
+    /* width: 300px; */
+    width: 22%;
+}
+
+.custom-margin{
+    margin: 5px;
+}
+
+
+/* ======Media Query not Complete====== */
+/* @media all and (){
+
+} */
+
+
+@media screen and (max-width: 991px) {
+    .custom-margin{
+        width : 30%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .custom-margin{
+        width : 40%;
+    }
+}
+
+@media screen and (max-width:447px) {
+    .custom-margin{
+        width : 100%;
+    }
+}
+
+@media screen and (max-width:447px) {
+    .custom-margin{
+        width : 100%;
+    }
+}
